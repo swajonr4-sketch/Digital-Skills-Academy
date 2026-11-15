@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Digital Skills Academy | IT Services, AI Solutions & Training in Bangladesh</title>
+<meta name="description" content="Digital Skills Academy offers AI solutions, website development, digital marketing, graphic design and IT training. Empowering Your Digital Future.">
+<meta property="og:title" content="Digital Skills Academy – Empowering Your Digital Future">
+<meta property="og:description" content="AI solutions, web development, digital marketing and IT training.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Digital Skills Academy","slogan":"Empowering Your Digital Future"}</script>
+<style>
+:root{--navy:#0B1F3A;--blue:#2563EB;--cyan:#06B6D4;--bg:#fff;--soft:#F4F7FB;--text:#1E293B;--card:#fff;--line:#e2e8f0;--mut:#64748b;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);box-sizing:border-box;color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1424;--soft:#0f1d33;--text:#e2e8f0;--card:#14233d;--line:#243556;--mut:#94a3b8;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a1424;--soft:#0f1d33;--text:#e2e8f0;--card:#14233d;--line:#243556;--mut:#94a3b8;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h3{line-height:1.2;margin:0 0 .5em}
+a{color:var(--blue)}
+.wrap{max-width:1160px;margin:auto;padding:0 20px}
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+nav{display:flex;align-items:center;gap:20px;height:68px}
+.logo{font-weight:800;font-size:1.15rem;text-decoration:none;color:var(--text);display:flex;align-items:center;gap:8px}
+.logo b{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff;display:grid;place-items:center;font-size:.9rem}
+.links{display:flex;gap:6px;margin-left:auto;align-items:center}
+.links>a,.dd>button{padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--text);background:none;border:0;font:inherit;cursor:pointer}
+.links>a:hover,.dd>button:hover{background:var(--soft)}
+.dd{position:relative}
+.menu{display:none;position:absolute;top:100%;left:0;min-width:230px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px;box-shadow:0 12px 30px #0003}
+.dd.open .menu{display:block}
+.menu a{display:block;padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--text)}
+.menu a:hover{background:var(--soft)}
+.btn{display:inline-block;padding:12px 22px;border-radius:10px;border:0;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px #2563eb55}
+.btn.o{background:none;border:2px solid var(--blue);color:var(--blue)}
+.btn.sm{padding:8px 14px;font-size:.9rem}
+#burger{display:none;margin-left:auto;background:none;border:1px solid var(--line);border-radius:8px;padding:8px 12px;color:var(--text);font-size:1.1rem}
+.hero{background:linear-gradient(135deg,var(--navy),#123a73 60%,#0e5a73);color:#fff;padding:90px 0}
+.hero .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem)}
+.hero p{color:#cbd5e1;font-size:1.1rem}
+.glass{background:#ffffff14;border:1px solid #ffffff2e;backdrop-filter:blur(10px);border-radius:20px;padding:24px}
+.glass div{padding:10px 0;border-bottom:1px solid #ffffff22}.glass div:last-child{border:0}
+.ph{height:12px;border-radius:6px;background:linear-gradient(90deg,var(--cyan),transparent);margin-top:8px}
+section{padding:64px 0}.alt{background:var(--soft)}
+.sec-h{text-align:center;max-width:680px;margin:0 auto 36px}
+.sec-h p{color:var(--mut)}
+.pg{padding:48px 0 16px;background:var(--soft);text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column;gap:6px}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 28px #2563eb22}
+.card p{color:var(--mut);margin:0;flex:1}
+.ic{font-size:1.8rem}
+.tag{font-size:.75rem;background:var(--soft);color:var(--blue);border-radius:99px;padding:2px 10px;align-self:flex-start;font-weight:600}
+.demo{font-size:.75rem;color:#b45309;font-weight:600}
+.stat{text-align:center}.stat b{font-size:2rem;color:var(--blue);display:block}
+.img{height:120px;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--cyan));display:grid;place-items:center;font-size:2.4rem}
+.steps{counter-reset:s}.steps .card::before{counter-increment:s;content:counter(s);width:36px;height:36px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font-weight:700}
+form{display:grid;gap:14px;max-width:640px}
+label{font-weight:600;font-size:.9rem;display:grid;gap:4px}
+input,select,textarea{font:inherit;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text)}
+input:focus,select:focus,textarea:focus,button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.err{color:#dc2626;font-size:.8rem;min-height:1em}
+.note{padding:12px 14px;border-radius:10px;background:var(--soft);border-left:4px solid var(--blue);font-size:.9rem}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600}
+.cta{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;text-align:center}
+.cta p{color:#dbeafe}
+footer{background:var(--navy);color:#cbd5e1;padding:48px 0 24px}
+footer a{color:#cbd5e1;display:block;text-decoration:none;padding:2px 0}footer a:hover{color:#fff}
+footer h3{color:#fff;font-size:1rem}
+.fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:28px}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;background:#16a34a;color:#fff;border-radius:99px;padding:12px 18px;font-weight:700;text-decoration:none;box-shadow:0 8px 20px #0004}
+.scroll{overflow-x:auto}
+.fade{animation:f .4s ease}@keyframes f{from{opacity:0;transform:translateY(8px)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}#burger{display:block}
+.links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;background:var(--bg);padding:12px 20px;border-bottom:1px solid var(--line);max-height:75vh;overflow:auto}
+.links.open{display:flex}.menu{position:static;box-shadow:none;border:0}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav aria-label="Main">
+<a class="logo" href="#home"><b>DS</b>Digital Skills Academy</a>
+<button id="burger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+<div class="links" id="links">
+<a href="#home">Home</a><a href="#about">About</a>
+<div class="dd" id="dd"><button aria-haspopup="true" aria-expanded="false">Services ▾</button><div class="menu" id="menu"></div></div>
+<a href="#courses">Courses</a><a href="#portfolio">Portfolio</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+<a class="btn sm" href="#contact" style="color:#fff">Get a Quote</a></div></nav></div></header>
+<main id="app"></main>
+<footer><div class="wrap"><div class="fg">
+<div><div class="logo" style="color:#fff"><b>DS</b>Digital Skills Academy</div><p>Empowering Your Digital Future. IT services, AI solutions, digital marketing and professional training.</p></div>
+<div><h3>Quick Links</h3><a href="#about">About</a><a href="#pricing">Pricing</a><a href="#careers">Careers</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+<div><h3>Our Services</h3><a href="#ai">AI Solutions</a><a href="#web">Web Development</a><a href="#marketing">Digital Marketing</a><a href="#design">Graphic Design</a></div>
+<div><h3>Newsletter</h3><form id="news" novalidate style="gap:8px"><input type="email" name="email" placeholder="Your email" aria-label="Email for newsletter"><span class="err" style="color:#fca5a5"></span><button class="btn sm">Subscribe</button><span class="status" style="font-size:.85rem"></span></form></div>
+</div><p style="margin-top:28px;border-top:1px solid #ffffff22;padding-top:16px"><a style="display:inline" href="#privacy">Privacy Policy</a> · <a style="display:inline" href="#terms">Terms &amp; Conditions</a> · <span id="soc"></span><br>© <span id="yr"></span> Digital Skills Academy. All rights reserved.</p></div></footer>
+<a class="wa" id="wa" href="#contact">💬 WhatsApp</a>
+<script>
+/* ============ EDIT THIS CONFIG ============ */
+const CONFIG={
+ whatsapp:"",            // digits only with country code, e.g. 8801XXXXXXXXX
+ email:"", phone:"", address:"",
+ social:{Facebook:"",LinkedIn:""},   // full URLs
+ formEndpoint:"",        // e.g. Formspree / your API route URL (POST JSON)
+ newsletterEndpoint:""   // your newsletter API URL (POST JSON)
+};
+/* ========================================== */
+const $=(s,r=document)=>r.querySelector(s);
+const S=[["🤖","AI Solutions","Chatbots, content and automation powered by AI.","ai"],["🌐","Website Design & Development","Responsive, fast business websites.","web"],["💻","Software Development","Custom software built around your workflow.","web"],["📱","Mobile App Development","Android and iOS apps for your users.","web"],["📣","Digital Marketing","Campaigns that reach the right audience.","marketing"],["🔍","Search Engine Optimization","Improve visibility in search results.","marketing"],["👍","Social Media Marketing","Plan, create and manage social presence.","marketing"],["🎨","Graphic Design","Logos, branding and print/digital creatives.","design"],["🧩","UI/UX Design","Intuitive interfaces and user journeys.","design"],["🎬","Video Editing & Motion Graphics","Engaging video content and animation.","design"],["🛒","E-commerce Development","Online stores ready to sell.","web"],["📝","WordPress Development","Themes, plugins and managed sites.","web"],["⚙️","Automation & Workflow","Remove repetitive manual work.","ai"],["🧭","IT Consultancy","Technology planning and guidance.","contact"],["📊","Data Analysis & Excel","Dashboards, reports and Excel solutions.","contact"],["🛡️","Cybersecurity Consultancy","Security reviews and best practices.","contact"],["☁️","Cloud & IT Support","Hosting, setup and ongoing support.","contact"]];
+const C=[["AI Fundamentals","Understand and apply AI in work and business.","Beginner"],["Digital Marketing","Facebook, Google, SEO and content strategy.","Beginner"],["Graphic Design","Design principles and professional tools.","Beginner"],["Web Design & Development","Build responsive websites from scratch.","Intermediate"],["Microsoft Office","Word, PowerPoint and daily office skills.","Beginner"],["Microsoft Excel","Formulas, tables, charts and reports.","Beginner"],["Freelancing & Outsourcing","Find clients and deliver projects online.","Beginner"],["Prompt Engineering","Write effective prompts for AI tools.","Intermediate"],["AI Tools Masterclass","Hands-on tour of leading AI tools.","Intermediate"],["Computer Fundamentals","Core computer and internet skills.","Beginner"]];
+const P=[["Website Development","Sample Corporate Website","🌐"],["Graphic Design","Sample Brand Identity","🎨"],["Digital Marketing","Sample Campaign Report","📣"],["AI Projects","Sample AI Chatbot","🤖"],["Software Solutions","Sample Management System","💻"]];
+const B=[["Artificial Intelligence","How small businesses can start using AI tools"],["Digital Marketing","Planning a simple Facebook content calendar"],["Technology","Choosing the right hosting for your website"],["Web Development","What makes a website fast and accessible"],["Freelancing","First steps to start freelancing online"],["IT Education","Building a learning path for digital skills"],["Online Business","Setting up an online shop: a checklist"]];
+const F=[["What services do you offer?","AI solutions, web and software development, digital marketing, design and IT training. See the Services page."],["How do I enroll in a course?","Use the enrollment inquiry form on the Courses page. Our team will reply with current schedules and details."],["How is pricing decided?","Pricing depends on scope. Contact us for a custom quote."],["Do you work with international clients?","Yes. Reach out via the contact form to discuss your project."]];
+const sub={ai:["AI Chatbot Development","AI Content Creation","AI Image & Video Generation","AI Business Automation","AI Marketing Solutions","AI Training & Consultation"],marketing:["Facebook Marketing","Instagram Marketing","Google Ads","YouTube Marketing","SEO Optimization","Content Marketing","Email Marketing","Marketing Automation"],web:["Business Websites","Portfolio Websites","E-commerce Websites","Educational Websites","Job Portal Websites","WordPress Websites","Custom Web Applications","Business Management Systems"],design:["Logo & Branding","Social Media Creatives","UI/UX Design","Print Design","Video Editing & Motion Graphics","Presentation Design"]};
+const T={ai:["AI Solutions","Practical AI that saves time and grows your business."],marketing:["Digital Marketing","Reach, engage and convert your audience."],web:["Web Development","Websites and software built to perform."],design:["Graphic Design","Creative design that strengthens your brand."]};
+const hd=(t,p)=>`<div class="pg"><div class="wrap"><h1>${t}</h1><p style="color:var(--mut)">${p}</p></div></div>`;
+const sec=(c,alt)=>`<section class="${alt?'alt':''}"><div class="wrap">${c}</div></section>`;
+const cards=a=>`<div class="grid">${a.map(([i,t,d,l])=>`<div class="card"><div class="ic">${i}</div><h3>${t}</h3><p>${d}</p><a href="#${l}">Learn More →</a></div>`).join('')}</div>`;
+const subCards=k=>`<div class="grid">${sub[k].map(x=>`<div class="card"><h3>${x}</h3><a href="#contact">Request this service →</a></div>`).join('')}</div>`;
+const courseCards=()=>`<div class="grid">${C.map(([t,d,l])=>`<div class="card"><div class="img" aria-hidden="true">🎓</div><h3>${t}</h3><p>${d}</p><span class="tag">${l}</span><small>Duration: <i>[edit]</i> · Outcomes: <i>[edit]</i></small><a class="btn sm" href="#courses" data-enroll="${t}">Enroll Now</a></div>`).join('')}</div>`;
+const field=(l,n,t='text',req=1)=>`<label>${l}<input name="${n}" type="${t}" ${req?'data-req':''}><span class="err"></span></label>`;
+const cform=(id,extra)=>`<form id="${id}" novalidate>${field('Full Name','name')}${field('Email Address','email','email')}${field('Phone Number','phone','tel',0)}${extra}<button class="btn">Submit Inquiry</button><div class="status" role="status"></div></form>`;
+const contactExtra=`<label>Service Required<select name="service">${S.map(s=>`<option>${s[1]}</option>`).join('')}</select></label><label>Project Budget<input name="budget" placeholder="Your estimated budget"></label><label>Message<textarea name="message" rows="4" data-req></textarea><span class="err"></span></label>`;
+const enrollExtra=`<label>Course<select name="course">${C.map(c=>`<option>${c[0]}</option>`).join('')}</select></label>`;
+const cta=`<section class="cta"><div class="wrap"><h2>Ready to Grow Your Business with Digital Technology?</h2><p>Let’s build something innovative together. Connect with Digital Skills Academy today.</p><a class="btn" style="background:#fff;color:var(--navy)" href="#contact">Contact Our Team</a></div></section>`;
+const legal=t=>hd(t,"Template – replace with text reviewed by a qualified professional.")+sec(`<p class="note">This is placeholder text, not legal advice. Have your ${t} written or reviewed by a lawyer before publishing. Describe what data you collect (e.g. contact form, newsletter), how it is used, retention, and how users can contact you.</p>`);
+const R={
+home:()=>`<div class="hero"><div class="wrap"><div><h1>Transform Your Ideas Into Digital Success</h1><p>Your Trusted Partner for AI Solutions, IT Services, Web Development, Digital Marketing, and Creative Digital Experiences.</p><a class="btn" href="#services">Explore Our Services</a> <a class="btn o" style="color:#fff;border-color:#fff" href="#contact">Get Started Today</a></div><div class="glass" aria-hidden="true"><div>🤖 AI Solutions<div class="ph"></div></div><div>🌐 Web Development<div class="ph" style="width:80%"></div></div><div>📣 Digital Marketing<div class="ph" style="width:65%"></div></div></div></div></div>`
++sec(`<div class="grid">${["Projects Completed","Happy Clients","Professional Services","Training Programs"].map(x=>`<div class="stat"><b>[00]</b>${x}<br><span class="demo">Placeholder – add real figure</span></div>`).join('')}</div>`)
++sec(`<div class="sec-h"><h2>About Digital Skills Academy</h2><p>We are a technology company delivering IT services, AI-powered solutions, digital marketing, creative design and professional training. Our mission is to help people and businesses succeed with digital technology, guided by quality, integrity and continuous learning.</p><a href="#about">Read more →</a></div>`,1)
++sec(`<div class="sec-h"><h2>Our Core Services</h2></div>${cards(S)}`)
++sec(`<div class="sec-h"><h2>AI Solutions</h2></div>${subCards('ai')}`,1)
++sec(`<div class="sec-h"><h2>Digital Marketing Solutions</h2></div>${subCards('marketing')}`)
++sec(`<div class="sec-h"><h2>Web &amp; Software Development</h2></div>${subCards('web')}`,1)
++sec(`<div class="sec-h"><h2>IT Training &amp; Professional Courses</h2></div>${courseCards()}`)
++sec(`<div class="sec-h"><h2>Why Choose Us?</h2></div><div class="grid">${["Experienced Professionals","Modern Technology","Affordable Pricing","Quality Service","Client-Focused Solutions","On-Time Delivery","Professional Support","Continuous Innovation"].map(x=>`<div class="card"><h3>✔ ${x}</h3></div>`).join('')}</div>`,1)
++sec(`<div class="sec-h"><h2>Our Work Process</h2></div><div class="grid steps">${[["Discover","Understand client requirements."],["Plan","Develop a suitable strategy."],["Develop","Build and implement solutions."],["Deliver","Test, launch and provide support."]].map(([t,d])=>`<div class="card"><h3>${t}</h3><p>${d}</p></div>`).join('')}</div>`)
++sec(`<div class="sec-h"><h2>Testimonials</h2><p class="demo">Demo content – replace with real client feedback</p></div><div class="grid">${[1,2,3].map(n=>`<div class="card"><p>“Placeholder testimonial ${n}. Add a real client quote here.”</p><b>Client Name</b><span class="demo">Demo</span></div>`).join('')}</div>`,1)+cta,
+about:()=>hd("About Us","Empowering Your Digital Future")+sec(`<div class="grid"><div class="card"><h3>Mission</h3><p>Help individuals and organizations grow through practical digital skills and technology solutions.</p></div><div class="card"><h3>Vision</h3><p>To be a trusted name in IT services and digital education.</p></div><div class="card"><h3>Values</h3><p>Quality, honesty, client focus and continuous innovation.</p></div></div>`)+cta,
+services:()=>hd("Our Services","End-to-end digital solutions")+sec(cards(S))+cta,
+courses:()=>hd("IT Training & Courses","Durations, levels and outcomes are editable placeholders")+sec(courseCards())+sec(`<h2>Course Enrollment Inquiry</h2>${cform('enroll',enrollExtra)}`,1),
+portfolio:()=>hd("Portfolio","Sample projects – replace with your real work")+sec(`<div class="grid">${P.map(([c,t,i])=>`<div class="card"><div class="img">${i}</div><span class="tag">${c}</span><h3>${t}</h3><span class="demo">Sample project</span></div>`).join('')}</div>`),
+pricing:()=>hd("Pricing & Packages","No fixed prices – contact us for a tailored quote")+sec(`<div class="grid">${["Basic","Professional","Enterprise"].map(n=>`<div class="card"><h3>${n} Package</h3><p><b>Price: [edit]</b></p><p>Feature list: [edit]<br>Service description: [edit]</p><a class="btn sm" href="#contact">Contact for Pricing</a></div>`).join('')}</div>`),
+blog:()=>hd("Blog & Technology News","Sample posts – replace with your articles")+sec(`<label style="max-width:420px;margin:0 0 20px">Search posts<input id="bs" type="search" placeholder="Search by title or category"></label><div class="grid" id="bl"></div>`),
+careers:()=>hd("Careers","Join our team")+sec(`<p class="note">No open positions are listed yet. Add roles here, or use the contact form to send your details.</p><p><a class="btn" href="#contact">Get in Touch</a></p>`),
+contact:()=>hd("Contact Us","Tell us about your project")+sec(`<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:40px">${cform('cf',contactExtra)}<div><h3>Contact Details</h3><p id="cd"></p></div></div>`),
+faq:()=>hd("FAQ","Common questions")+sec(F.map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join(''))+cta,
+privacy:()=>legal("Privacy Policy"),terms:()=>legal("Terms & Conditions")
+};
+["ai","marketing","web","design"].forEach(k=>R[k]=()=>hd(T[k][0],T[k][1])+sec(subCards(k))+cta);
+$('#menu').innerHTML=["services","ai","web","marketing","design"].map(k=>`<a href="#${k}">${k=='services'?'All Services':T[k][0]}</a>`).join('');
+$('#yr').textContent=new Date().getFullYear();
+const soc=Object.entries(CONFIG.social).filter(e=>e[1]);
+$('#soc').innerHTML=soc.length?soc.map(([n,u])=>`<a style="display:inline" href="${u}" rel="noopener" target="_blank">${n}</a>`).join(' · '):'<i>Social links: set in CONFIG</i>';
+$('#wa').href=CONFIG.whatsapp?`https://wa.me/${CONFIG.whatsapp}`:'#contact';
+if(!CONFIG.whatsapp)$('#wa').title='Set CONFIG.whatsapp to enable';
+function bind(f,url,label){if(!f)return;f.addEventListener('submit',async e=>{e.preventDefault();let ok=true;const st=$('.status',f);
+f.querySelectorAll('input,textarea').forEach(i=>{const er=i.parentElement.querySelector('.err');let m='';
+if(i.dataset.req!==undefined&&!i.value.trim())m='Required';else if(i.type==='email'&&i.value&&!/^\S+@\S+\.\S+$/.test(i.value))m='Enter a valid email';else if(i.type==='email'&&!i.value&&i.name==='email')m='Required';
+if(er)er.textContent=m;if(m)ok=false});
+if(!ok){st.textContent='Please fix the highlighted fields.';return}
+if(!url){st.textContent='Form is valid, but no backend is configured yet. Set the endpoint in CONFIG to receive submissions.';return}
+try{const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(f)))});
+if(!r.ok)throw 0;st.textContent='Thank you! '+label+' received.';f.reset()}catch(_){st.textContent='Could not send. Please try again later.'}})}
+function render(){const k=(location.hash.slice(1)||'home');const v=R[k]?k:'home';const a=$('#app');a.className='fade';a.innerHTML=R[v]();
+document.title=(v==='home'?'':v[0].toUpperCase()+v.slice(1)+' | ')+'Digital Skills Academy';scrollTo(0,0);
+$('#links').classList.remove('open');$('#burger').setAttribute('aria-expanded','false');$('#dd').classList.remove('open');
+bind($('#cf'),CONFIG.formEndpoint,'Your inquiry');bind($('#enroll'),CONFIG.formEndpoint,'Your enrollment inquiry');
+const cd=$('#cd');if(cd){const x=[['Email',CONFIG.email],['Phone',CONFIG.phone],['Address',CONFIG.address]];cd.innerHTML=x.map(([l,t])=>`${l}: ${t||'<i>[set in CONFIG]</i>'}`).join('<br>')}
+const bl=$('#bl');if(bl){const d=()=>{const q=$('#bs').value.toLowerCase();const r=B.filter(p=>(p[0]+p[1]).toLowerCase().includes(q));bl.innerHTML=r.length?r.map(([c,t])=>`<div class="card"><span class="tag">${c}</span><h3>${t}</h3><span class="demo">Sample post</span></div>`).join(''):'<p>No posts found.</p>'};$('#bs').oninput=d;d()}
+document.querySelectorAll('[data-enroll]').forEach(b=>b.onclick=()=>{if(v!=='courses'){return}setTimeout(()=>{const s=$('#enroll select');if(s)s.value=b.dataset.enroll;$('#enroll').scrollIntoView({behavior:'smooth'})},0);return false})}
+addEventListener('hashchange',render);render();
+$('#burger').onclick=e=>{const o=$('#links').classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',o)};
+$('#dd>button').onclick=e=>{const o=$('#dd').classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',o)};
+document.addEventListener('click',e=>{if(!e.target.closest('#dd'))$('#dd').classList.remove('open')});
+bind($('#news'),CONFIG.newsletterEndpoint,'Subscription');
+</script>
+</body>
+</html>
